@@ -43,10 +43,17 @@ There are also three additional gain adjust stages:
 5 BAND EQ<br />
 There are also 10 predefined 5 band EQs available.
 
-LOW AND HIGH PASS FILTERS
-As you add gain, you may want to remove bass from the signal. Use the High Pass 
-filter for this. As you add gain, you will add high frequency harmonics. This 'fizz'
-can be very harsh. Use the LOW PASS filter to get rid of the fizz.
+LOW PASS (FIZZ) AND HIGH PASS (MUD) FILTERS
+As you add gain, you may want to remove bass from the signal. Use the MUD High Pass 
+filter for this. Low gain is fine at 50 Hz and super high gain may require 150-180 Hz.
+
+As you add gain, you will also add high frequency harmonics. Harmonics are multiples of
+the original signal. If you distort 1 kHz, you will also get the odd harmonics 3 Khz,
+5 kHz, etc to infinity. These harmincs sound like a 'fizz' sound and can be very harsh.
+Use the LOW PASS (FIZZ) filter to reduce these high frequency harmonics.
+
+It is sometimes better to over do the FIZZ filter and add some back using the EQ. This 
+gives you better control of the freqs you want to hear.
 
 IMPULSE RESPONSE<br />
 There is also an Impulse Response section, to add a realistic

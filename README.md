@@ -52,27 +52,30 @@ the original signal. If you distort 1 kHz, you will also get the odd harmonics 3
 5 kHz, etc to infinity. These harmincs sound like a 'fizz' sound and can be very harsh.
 Use the LOW PASS (FIZZ) filter to reduce these high frequency harmonics.  
   
-It is sometimes better to over do the FIZZ filter and add some back using the EQ. This 
-gives you better control of the freqs you want to hear.
+It is sometimes better to over do the FIZZ filter and then add some high freqs back using the EQ.
+This gives you better control of the freqs you want to hear. typical guitar speakers start to roll
+the high freqs at around 5 kHz. So FIZZ values of 3 kHz and up are normal. Then add specific highs
+back using the 5 band EQ. Or load the code and do whatever you want! That is the point of all this.
   
 IMPULSE RESPONSE<br />
 There is also an Impulse Response section, to add a realistic
 speaker response. IRs are typically WAVE files 1024 or 2048 samples
-in length. For simplification, the IRs used here are in stored in 
+in length. For simplification, the IRs used here are stored in 
 code as float arrays. There are 5 IRs available.
 
 IRs are very CPU heavy. For best results an IR of sample size 2048 should be used.
 This VST uses 1024 based IRs to keep CPU usage low. A slider could be added to 
-reduce the sample size even further, at the cost of fidelity.
+reduce the sample size even further, at the cost of fidelity. Larger IRs have more
+accurate low frequency information. But remember, a full frequency flat response IR is a single sample.
+So get creative.
 
 COMPRESSOR<br />
-The program also adds a pre gain compressor stage. This can help 
-get a fatter tone in certain instances.
+The program also adds a pre gain compressor stage. This can help get a fatter tone in certain instances.
 
 TUBE THINNER<br />
 This hack tries to reduce the guitar signal volume when driving hard into the clipping stages.
-It should only be used when soloing if you are hearing ghost notes and alien sounds. Since we
-applying a lot of gain, we wil start to hear random noises that are normally at the noise floor
+It should only be used when soloing if you are hearing ghost notes and alien sounds. Since we are
+applying a lot of gain, we will start to hear random noises that are normally at the noise floor
 of your guitar signal. The thinner tries to reduce your volume between note peaks to reduce these
 weird noises.
 
@@ -94,7 +97,7 @@ The bones of an amplifier are here. Adjusting filter Q values and frequencies is
 Another thing to try is where EQ is applied.  
 
 High gain amps have EQ before the gain stage. Because any low freqs will overwhelm the distortion stage.
-This is how a FUZZ pedal works. So a certain amps EQ style and position can determine how that amp sounds.
+This is how a FUZZ pedal works. So a certain amps EQ style and EQ position can determine how that amp sounds.
   
 This VST is designed to be a sort of tool chest or playground for you to figure things out, play, and have fun.
 

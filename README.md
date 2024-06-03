@@ -50,6 +50,23 @@ in length. For simplification, the IRs used here are in stored in
 code as float arrays. There are 5 IRs available.
 
 COMPRESSOR<br />
-The program also add a pre gain compressor stage. This can help 
+The program also adds a pre gain compressor stage. This can help 
 get a fatter tone in certain instances.
+
+TUBE THINNER
+This hack tries to reduce the guitar signal volume when driving hard into the clipping stages.
+It should only be used when soloing if you are hearing ghost notes and alien sounds. Since we
+applying a lot of gain, we wil start to hear random noises that are normally at the noise floor
+of your guitar signal. The thinner tries to reduce your volume between note peaks to reduce these
+weird noises.
+
+CLIPPING
+The backbone of a distorted sound is the clipping stage. This is the magic place where people
+feel tubes amps excel. We have two types of clipping in this VST, Hard and Soft. Hard does exactly
+what it says. Any signal above 1.0 is clipped to 1.0. The soft method uses a hypertangent function.
+This function creates a soft curve that limits the signal from -1.0 to 1.0. 
+
+If you want to create the next best VST, this is where you want to start editing the code.
+
+
 

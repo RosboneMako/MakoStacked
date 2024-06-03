@@ -45,16 +45,16 @@ There are also 10 predefined 5 band EQs available.
 
 LOW PASS (FIZZ) AND HIGH PASS (MUD) FILTERS<br />
 As you add gain, you may want to remove bass from the signal. Use the MUD High Pass 
-filter for this. Low gain is fine at 50 Hz and super high gain may require 150-180 Hz.
-<br />
+filter for this. Low gain is fine at 50 Hz and super high gain may require 150-180 Hz.  
+
 As you add gain, you will also add high frequency harmonics. Harmonics are multiples of
 the original signal. If you distort 1 kHz, you will also get the odd harmonics 3 Khz,
 5 kHz, etc to infinity. These harmincs sound like a 'fizz' sound and can be very harsh.
-Use the LOW PASS (FIZZ) filter to reduce these high frequency harmonics.
-<br />
+Use the LOW PASS (FIZZ) filter to reduce these high frequency harmonics.  
+  
 It is sometimes better to over do the FIZZ filter and add some back using the EQ. This 
 gives you better control of the freqs you want to hear.
-<br />
+  
 IMPULSE RESPONSE<br />
 There is also an Impulse Response section, to add a realistic
 speaker response. IRs are typically WAVE files 1024 or 2048 samples
@@ -92,10 +92,10 @@ This is expensive on CPU usage. Run Mono when possible for best results.
 # FINAL THOUGHTS<br />
 The bones of an amplifier are here. Adjusting filter Q values and frequencies is one thing to play with.
 Another thing to try is where EQ is applied.  
-<br />
+
 High gain amps have EQ before the gain stage. Because any low freqs will overwhelm the distortion stage.
 This is how a FUZZ pedal works. So a certain amps EQ style and position can determine how that amp sounds.
-<br />
+  
 This VST is designed to be a sort of tool chest or playground for you to figure things out, play, and have fun.
 
 

@@ -38,7 +38,7 @@ adjustable.<br />
 ENHANCE<br />
 There are also three additional gain adjust stages:
 - Enhance High, adds distorted high freqs before the gain stage.
-- Enahnce Low, adds distortion thickness after the gain stage.
+- Enhance Low, adds distortion thickness after the gain stage.
 - Thump, add low freq distortion to mimic speaker cab/compression.
 
 5 BAND EQ<br />

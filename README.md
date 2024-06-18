@@ -50,16 +50,16 @@ filter for this. Low gain is fine at 50 Hz and super high gain may require 150-1
 
 As you add gain, you will also add high frequency harmonics. Harmonics are multiples of
 the original signal. If you distort 1 kHz, you will also get the odd harmonics 3 Khz,
-5 kHz, etc to infinity. These harmincs sound like a 'fizz' sound and can be very harsh.
+5 kHz, etc to infinity. These harmonics create a 'fizz' sound and can be very harsh.
 Use the LOW PASS (FIZZ) filter to reduce these high frequency harmonics.  
   
 It is sometimes better to over do the FIZZ filter and then add some high freqs back using the EQ.
-This gives you better control of the freqs you want to hear. typical guitar speakers start to roll
+This gives you better control of the freqs you want to hear. Typical guitar speakers start to roll
 the high freqs at around 5 kHz. So FIZZ values of 3 kHz and up are normal. Then add specific highs
 back using the 5 band EQ. Or load the code and do whatever you want! That is the point of all this.
   
 IMPULSE RESPONSE<br />
-There is also an Impulse Response section, to add a realistic
+There is also an Impulse Response section included to add a realistic
 speaker response. IRs are typically WAVE files 1024 or 2048 samples
 in length. For simplification, the IRs used here are stored in 
 code as float arrays. There are 5 IRs available.
@@ -82,7 +82,7 @@ weird noises.
 
 CLIPPING<br />
 The backbone of a distorted sound is the clipping stage. This is the magic place where people
-feel tubes amps excel. We have two types of clipping in this VST, Hard and Soft. Hard does exactly
+feel tube amps excel. We have two types of clipping in this VST, Hard and Soft. Hard does exactly
 what it says. Any signal above 1.0 is clipped to 1.0. The soft method uses a hypertangent function.
 This function creates a soft curve that limits the signal from -1.0 to 1.0. 
 
@@ -99,6 +99,9 @@ Another thing to try is where EQ is applied.
 
 High gain amps have EQ before the gain stage. Because any low freqs will overwhelm the distortion stage.
 This is how a FUZZ pedal works. So a certain amps EQ style and EQ position can determine how that amp sounds.
+
+Check out Jim Lills YouTube video on where he finds an amps tone comes from:
+https://www.youtube.com/watch?v=wcBEOcPtlYk
   
 This VST is designed to be a sort of tool chest or playground for you to figure things out, play, and have fun.
 

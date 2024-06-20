@@ -18,7 +18,8 @@ Just simple code for people who are not programmers but want to
 dabble in the magic of JUCE VSTs.
 
 If you are new to JUCE code, the Mako Thump VST may be a better
-starting place. Or be brave and try this.
+starting place. The Mako Rusty VST very similar to this code and
+is another good starting point.
        
 SUMMARY
 ------------------------------------------------------------------
